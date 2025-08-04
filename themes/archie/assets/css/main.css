@@ -433,6 +433,7 @@ video {
   font-size: 0.9em;
   margin: 0;
   text-transform: lowercase;
+  font-weight: normal;
 }
 
 @media (min-width: 500px) {
