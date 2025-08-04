@@ -21,17 +21,19 @@ e.g.
 }
 ```
 
-Tabular data once began its life in accounting and has become a ubiquitous part of many jobs, whether it is in the form of spreadsheets, data science or simply a web dashboard for your fitness tracker. We pondered to ourselves why every json viewer continued to use symbols as expressions to convey the structure.
+Tabular data once began its life in accounting and has become a ubiquitous part of many parts of life, whether it is in the form of spreadsheets, data science or simply a web dashboard for your fitness tracker. We pondered to ourselves why every json viewer continued to use symbols as expressions to convey the structure.
 
-For example why visualise a list using `[1, 2, 3]` which you are trying to improve readability, this is a solved problem at this point.
+For example why visualise a list using `[1, 2, 3]` when you are trying to improve readability? Surely this is a solved problem at this point.
 
 - 1
 - 2
 - 3
 
-And yes, I know that for some use cases, clarity of syntax is important - but here we are focussing on making json accessible "to the masses", to which clarity of structure is vital.
+And yes, I know that for some use cases, clarity of syntax is more important - but here we are focussing on making json accessible "to the masses", to which clarity of structure and readability is vital.
 
-After lists, there really isn't much left of json, the remaining structural component is key-value pairs which while there are many ways to render this, the simples might be something like `key: value`. And then for example using indentation to denote levels of nesting.
+After lists, there really isn't much left of json, the remaining structural component is key-value pairs, which, while there are many ways to display these, the simplest might be something like `key: value`. 
+
+Lastly, there are a few other minor bits and pieces. Firstly, denoting levels of nesting which typically uses indentation, but could use contrast to show the distinction. Next json supports some foundational data types (e.g. boolean, number, string) that we could convey to the user, traditionally this is done with quotation marks, but we could use colour or symbols/icons.
 
 In my mind I was also curious about how one might navigate a json object in a viewer like this - with nesting and lists, this becomes a far less space efficient data structure than a table for rendering to the screen.
 
