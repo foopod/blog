@@ -1,0 +1,12 @@
+baseURL = 'https://jonoshields.com/'
+languageCode = 'en-us'
+title = 'jono shields'
+theme = 'archie'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+        unsafe = true
+
+[params]
+    mode="auto"

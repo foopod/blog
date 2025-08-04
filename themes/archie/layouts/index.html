@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	{{ partial "header.html" . }}
+	<body>
+		<div class="content">
+			{{ partial "head.html" . }}
+			
+			<main class="list">
+				<div class="site-description">
+					{{- if isset .Site.Params "subtitle" -}}
+					<p>{{ .Site.Params.Subtitle | .Page.RenderString }}</p>
+					{{- end -}}
+				</div>
+				<br/>
+				<blockquote>
+				jono is a coder, a gamedev and a maker. but more than anything he is a learner.
+				</blockquote>
+				<br/>
+
+				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+				{{ range $paginator.Pages }}
+				<section class="list-item">
+					<!-- <a href="{{ .RelPermalink }}"><img class="feature-image" src="{{.Params.image}}"/> </a> -->
+					<!-- <div class="" style="width:100%;display: flex;justify-content: space-between;"> -->
+						<h2 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h2>
+						<time>{{ .Date.Format "January 2, 2006" }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+						<!-- <br>{{ template "partials/pagedescription.html" . }} -->
+						<!-- <a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a> -->
+					<!-- </div> -->
+				</section>
+				{{ end }}
+				{{ template "partials/paginator.html" . }}
+			</main>
+			<!-- {{ partial "footer.html" . }} -->
+		</div>
+		
+	</body>
+</html>
