@@ -1,4 +1,4 @@
-baseURL = 'https://jonoshields.com/'
+baseURL = 'https://jono-simple-blog.netlify.app/'
 languageCode = 'en-us'
 title = 'jono shields'
 theme = 'archie'
