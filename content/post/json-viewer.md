@@ -49,4 +49,4 @@ So I cobbled together a prototype...
 
 ![](/img/jsonless.png)
 
-Give it a try over [here](https://jsonless.netlify.app/), I would be curious to see what you think.
+Give it a try over [here](https://jsonless.netlify.app/) (not made for mobile), I would be curious to see what you think.
