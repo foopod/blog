@@ -457,3 +457,7 @@ video {
     text-decoration-line: none;
   }
 }
+
+#dark-mode-toggle{
+  cursor: pointer;
+}
