@@ -43,30 +43,6 @@ h5,
 h6 {
   color: #ddd;
 }
-/* h1::before {
-  color: var(--darkMaincolor);
-  content: "# ";
-}
-h2::before {
-  color: var(--darkMaincolor);
-  content: "## ";
-}
-h3::before {
-  color: var(--darkMaincolor);
-  content: "### ";
-}
-h4::before {
-  color: var(--darkMaincolor);
-  content: "#### ";
-}
-h5::before {
-  color: var(--darkMaincolor);
-  content: "##### ";
-}
-h6::before {
-  color: var(--darkMaincolor);
-  content: "###### ";
-} */
 
 .toc {
   background-color: #272822;
@@ -191,4 +167,14 @@ a:hover {
   border-width: 3px;
   border-style: solid;
   border-color: #ffd700;
+}
+
+/* Contact Form */
+.contact-form input, .contact-form textarea{
+  background-color: #333;
+  color: white;
+}
+
+.contact-form button{
+  color: white;
 }

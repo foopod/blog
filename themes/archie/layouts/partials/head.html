@@ -16,6 +16,7 @@
 		{{ range .Site.Menus.main }}
 		<a href="{{ .URL }}">{{ .Name }}</a>
 		{{ end }}
+		<a href="/contact">{{template "feathericon" (dict "UseCDN" .Site.Params.useCDN "Icon" "message-square") }}</a>
 		<a href="/index.xml">{{template "feathericon" (dict "UseCDN" .Site.Params.useCDN "Icon" "rss") }}</a>
 		{{ if or (eq .Site.Params.mode "toggle") (eq .Site.Params.mode "auto") -}}
 		<span id="dark-mode-toggle" onclick="toggleTheme()">{{template "feathericon" (dict "UseCDN" .Site.Params.useCDN "Icon" "sun") }}</span>

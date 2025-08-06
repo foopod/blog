@@ -14,7 +14,7 @@ html {
 }
 body{
   display: block;
-  margin: 8px;
+  margin: 2em 8px;
 }
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -436,6 +436,10 @@ video {
   font-weight: normal;
 }
 
+#dark-mode-toggle{
+  cursor: pointer;
+}
+
 @media (min-width: 500px) {
   .list-item{
     display: flex;
@@ -456,8 +460,57 @@ video {
   a{
     text-decoration-line: none;
   }
+
+  .contact-form input{
+    width: 300px;
+  }
 }
 
-#dark-mode-toggle{
-  cursor: pointer;
+
+@media (min-height: 600px) {
+  #homepage{
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+}
+
+.contact-form label{
+  margin-bottom: 6px;
+  display: block;
+  font-size: 14px;
+}
+
+/* Contact Forms */
+
+.contact-form input, .contact-form textarea{
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-bottom:20px;
+  font-size: 14px;
+  font-family: 'Roboto Mono';
+  border: none;
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+.contact-form textarea{
+  height: 8em;
+  font-family: 'Roboto Mono';
+  width: 100%;
+}
+
+.contact-form button{
+  background-color: transparent;
+  border: none;
+  text-decoration-line: underline;
+  font-size: 16px;
+}
+
+@media (min-width: 500px) {
+  .contact-form input{
+    width: 300px;
+  }
 }
