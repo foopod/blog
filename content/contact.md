@@ -5,7 +5,7 @@ layout: single
 
 # Need something?
 
-<form class='contact-form' name="contact" method="POST" netlify>
+<form class='contact-form' name="contact" method="POST" action="/thanks" netlify>
     <div>
         <label for='email'>Email </label>
         <input id='email' type="email" name="email" />
