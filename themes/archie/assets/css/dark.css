@@ -4,13 +4,13 @@ body {
 }
 
 ::-moz-selection {
-  background: blue;
+  background-color: #444;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: red;
+  background-color: #444;
   color: #fff;
   text-shadow: none;
 }

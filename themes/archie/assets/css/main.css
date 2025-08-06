@@ -21,8 +21,8 @@ body{
 }
 
 ::selection {
-  background: var(--maincolor);
-  color: #fff;
+  background: #ddd;
+  color: #000;
 }
 
 p {
