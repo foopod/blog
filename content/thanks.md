@@ -5,4 +5,4 @@ layout: single
 
 # Need something?
 
-Thanks.
+Thanks for reaching out.
