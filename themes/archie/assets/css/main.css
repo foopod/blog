@@ -236,11 +236,6 @@ article .title {
   padding: 1em;
 }
 
-.callout p {
-  font-family: 'IBM Plex Mono', monospace;
-  margin: 0;
-}
-
 .callout a {
   border-bottom: 3px solid #fff;
 }
