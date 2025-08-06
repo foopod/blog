@@ -46,7 +46,7 @@ blockquote {
 a {
   border: none;
   color: black;
-  text-decoration-line: underline;
+  text-decoration-line: none;
 }
 a:hover {
   text-decoration-line: underline;
@@ -451,11 +451,7 @@ video {
     margin-top: auto;
     align-self: flex-end;
   }
-
-  a{
-    text-decoration-line: none;
-  }
-
+  
   .contact-form input{
     width: 300px;
   }

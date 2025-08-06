@@ -1,6 +1,6 @@
 --- 
 title: Contact
-layout: single
+type: page
 ---
 
 # Need something?
