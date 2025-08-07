@@ -37,7 +37,7 @@ And yes, I know that for some use cases, clarity of syntax is more important - b
 
 After lists, there really isn't that much left, the remaining structural component is key-value pairs, which, while there are many ways to display these, the simplest might be something like `key: value`. 
 
-So perhaps the example above could be written as...
+So perhaps the example above could be written as something like...
 
 - latitude: 52.52
 - longitude: 13.419998
