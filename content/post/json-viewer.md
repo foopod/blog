@@ -25,15 +25,16 @@ Tabular data once began its life in accounting (probably) and has become a ubiqu
 
 We pondered to ourselves why every json viewer continued to use symbols and characters to express the structure of the data. Were they trying to make reading json inaccessible to those not in the know?
 
-Its like excel showing commas between columns rather than nice straight lines.
+Suppose excel showed commas between columns rather than nice straight lines.
 
-An example, why visualise a list as `[1, 2, 3]` when you are trying to improve readability? They came to your json viewing website to read the file, yes I know formatting the doc helps a lot, but you can't say there isn't room for improvement. And at this point, these are solved problems, exhibit a)...
+For example, most online json readers will format an array as `[1, 2, 3, 4]`. Is this really the best we can do? Sure, it's probably formatted nicely so that it nests properly, but I think we can do better. Maybe something like an html list...
 
 - 1
 - 2
 - 3
+- 4
 
-And yes, I know that for some use cases, clarity of syntax is more important - but right now we are focussing on making json accessible "to the masses", not ensuring it can be parsed properly by a machine. How can we convert the structure of the data as simply and cleaning as possible.
+And yes, I know that for some use cases, clarity of syntax is more important - but I want to focus on making json accessible "to the masses", not ensuring it can be parsed properly by a machine. I want to convey the structure of the data as simply and cleaning as possible.
 
 After lists, there really isn't that much left, the remaining structural component is key-value pairs, which, while there are many ways to display these, the simplest might be something like `key: value`. 
 
