@@ -108,3 +108,9 @@ They stood at the edge, breathing in the forest air, looking out upon their rota
 Over the following years the two siblings would return to the floating monument many times in secret.
 
 They would eventually come to learn that it had a name, the Nui4738. It wasn't a building to house the dead and instead had been a transport ship that crashed here nearly 1000 years ago, its arrival was a culmination of unfortunate circumstances, a failed blockade run to a nation that was the target of a genocidal war, an unmaintained life support system and a brutish captain that made somee bad calls. The crew had died long before entering the planets atmosphere and while that was the end of their story, it would live on in Kiya and Oiyay's.
+
+---
+
+This story was inspired by a piece of art by [ManavuArt](https://x.com/ManavuArt) that popped up on my reddit feed last week.
+
+![](/img/manavu.jpg)
