@@ -16,7 +16,7 @@ body {
 }
 
 hr {
-  border-top: 3px dotted blue;
+  border-top: 1px solid #555;
 }
 code {
   background-color: #333;
@@ -67,11 +67,7 @@ a:hover {
 }
 
 .tags a {
-  border-bottom: 3px solid var(--darkMaincolor);
-}
-.tags a:hover {
-  background-color: var(--darkMaincolor);
-  color: black;
+  background-color: #555;
 }
 
 .site-title a {

@@ -1,5 +1,5 @@
 --- 
-title: thinking about json differently
+title: Thinking about json differently
 date: '2025-05-31'
 tags: 
     - coding

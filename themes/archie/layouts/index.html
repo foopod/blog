@@ -25,6 +25,13 @@
 					<!-- <div class="" style="width:100%;display: flex;justify-content: space-between;"> -->
 						<h2 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h2>
 						<time>{{ .Date.Format "January 2, 2006" }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
+						<!-- <div style="display: flex;">
+							<div style="width: 70px; padding-left: 1em; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">
+							{{ with index .Params.tags 0 }}
+								<a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+							{{ end }}
+							</div>
+						</div> -->
 						<!-- <br>{{ template "partials/pagedescription.html" . }} -->
 						<!-- <a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a> -->
 					<!-- </div> -->

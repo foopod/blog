@@ -31,9 +31,11 @@ p {
 }
 
 hr {
-  border: 0;
-  border-top: 3px dotted var(--bordercl);
-  margin: 1em 0;
+  border-top: 1px solid #555;
+}
+
+.tags a {
+  background-color: lightgray;
 }
 
 blockquote {
@@ -47,6 +49,7 @@ a {
   border: none;
   color: black;
   text-decoration-line: none;
+  text-transform: lowercase;
 }
 a:hover {
   text-decoration-line: underline;
@@ -276,16 +279,6 @@ article .title {
 .site-description {
 display: flex;
 justify-content: space-between;
-}
-.tags li::before{
-  content: "🏷 ";
-}
-.tags a{
-  border-bottom: 3px solid var(--maincolor); 
-}
-.tags a:hover{
-  color:white;
-  background-color: var(--hovercolor); 
 }
 svg{
   max-height: 15px;
