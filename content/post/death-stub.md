@@ -6,6 +6,10 @@ tags:
     - writing
 ---
 
+A short story by Jono Shields. Content Warning: Euthanasia, Suicide.
+
+---
+
 What would you do if today was your last day? How different would it be if you had known about it for the last 6 months?
 
 This is what had been going through my mind the last wee while. I thought that by the time today came around I would feel a bit calmer than I do now, maybe even a sense of relief. But this morning I woke up with a feeling of anxiety in the pit of my stomach. Did I do everything I was supposed to? You would think at 96 I wouldn't give a fuck anymore, but even at this age, I still thought about my kids a lot. The last thing I wanted to do was leave them cleaning up after me.
